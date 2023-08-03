@@ -1,0 +1,308 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* ---------------------------------------------------------- */
+body {
+    background-image: url(../img/fondo.png);
+    overflow-x: hidden;
+}
+
+.logo img {
+    width: 100%;
+    max-width: 20%;
+    height: auto;
+    border-radius: 50%;
+    position: relative; left: 10%;
+    
+}
+header {
+    margin-top: 7px;
+    margin-bottom: 60px;
+    display: grid;
+    grid-template-columns: 
+    1fr 1fr;
+    align-items: center;
+}
+
+.menu nav {
+    font-size: x-large;
+}
+
+.menu nav ul {
+    display: grid;
+    grid-template-columns: 
+    1fr 1fr 1fr 1fr;
+    justify-items: center;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.menu :hover {
+    color: white;
+}
+
+
+#secPrin {
+    display: grid;
+    grid-template-columns: 
+    1fr 1fr;
+    margin-bottom: 40px;
+}
+section .sectionPrincipal {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+
+.sectionPrincipal {
+    color: aliceblue;
+    font-size: xxx-large;
+}
+
+.sectionPrincipal h3 {
+    font-size: x-large;
+}
+
+.sectionImgPrincipal img {
+    width: 100%;
+    height: auto;
+    border-radius: 20%;
+    position: relative; right: 5%;
+    padding: 5px;
+    background-color: black;
+}
+
+#nuestroscafes {
+    margin-bottom: 60px;
+}
+
+#nuestroscafes .sectionNuestrosCafes {
+    display: flex;
+    justify-content: center;
+    font-size: xxx-large;
+    color:  burlywood;
+}
+.sectionNuestrosCafes p {
+    margin-right: 20px;
+}
+
+a {
+    color: burlywood;
+}
+
+.enlace :hover {
+    color: white;
+}
+.enlace {
+    text-decoration: underline white
+}
+
+footer {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.footerMenu ul {
+    display: grid;
+    grid-template-columns: 
+    50px 110px 80px 1vh;
+    justify-items: flex-start;
+}
+
+.footerMenu ul li :hover {
+    color: white;
+}
+
+/* Nuestros cafés */
+
+#tipos {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.tiposdecafe {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.tiposdecafe img {
+    width: 40%;
+    height: auto;
+    padding: 5px;
+    background-color: black;
+}
+
+#textoscafe {
+    left: 20px;
+    margin-bottom: 15px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 80px;
+    width: 97%;
+    position: relative;
+}
+
+
+#textoscafe .textos1 {
+    display: grid;
+    justify-items: center;
+    color: white;
+}
+
+#textoscafe .textos2 {
+    display: grid;
+    justify-items: center;
+    color: white;
+}
+
+.textos1 h3 {
+    font-size: xx-large;
+    color: burlywood;
+}
+.textos1 p {
+    text-align: justify;
+    font-size: x-large;
+}
+
+.textos2 h3 {
+    font-size: xx-large;
+    color: burlywood;
+}
+.textos2 p {
+    text-align: justify;
+    font-size: x-large;
+}
+
+/* Ubicacion */
+
+#ubicacion .local .grande {
+    width: 100%;
+    height: auto;
+    position: relative; top: -54px;
+}
+
+.mapa {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+
+/* contacto */
+
+#sectionCorreo {
+    position: relative;
+    left: 20px;
+    margin-bottom: 70px;
+}
+
+#sectionCorreo .correo {
+    display: flex;
+    gap: 20px;
+}
+
+#sectionCorreo .correo h3 {
+    color: white;
+    font-size: xx-large;
+}
+
+#sectionCorreo .correo a {
+    color: white;
+    font-size: xx-large;
+    text-decoration: underline;
+}
+
+#sectionCorreo .correo .enlaceCorreo :hover {
+    color: burlywood;
+}
+
+#sectionEmpleo div {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    justify-items: center;
+    margin-bottom: 50px;
+}
+
+#sectionEmpleo div h3 {
+    color: white;
+    font-size: xxx-large;
+}
+
+#sectionEmpleo div h4 {
+    color: white;
+    font-size: xx-large;
+}
+
+#sectionEmpleo div form {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    justify-items: center;
+    color: white;
+    font-size: x-large;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
